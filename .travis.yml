@@ -1,4 +1,7 @@
   language: python
   python:
     - "3.6"
-  script:  pytest test.py
+  script:  
+  cd /home/travis/build/OldPoe/HelloGitHub
+  ls
+  pytest test.py
